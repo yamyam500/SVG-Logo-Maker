@@ -31,7 +31,7 @@ function promptUser() {
       {
         type: "input",
         name: "color",
-        message: "Enter the color for the logo (e.g., #FF0000):",
+        message: "Enter the color for the logg",
       },
       {
         type: "list",
@@ -47,8 +47,7 @@ function promptUser() {
       {
         type: "input",
         name: "fileName",
-        message: "Enter the file name for the SVG (e.g., logo.svg):",
-        default: "logo.svg",
+        message: "Enter the file name for the SVG:",
       },
     ])
     .then((answers) => {
